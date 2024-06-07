@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  
+  <!-- RegisterUser_tests -->
+  <test name="RegisterUserTest" thread-count="3">
+    <classes>
+      <class name="tests.RegisterUser_tests"/>
+    </classes>
+  </test> <!-- RegisterUserTest -->
+  
+  <!-- loginUser_tests -->
+  <test name="loginUserTest" thread-count="3">
+    <classes>
+      <class name="tests.loginUser_tests"/>
+    </classes>
+  </test> <!-- loginUserTest -->
+
+
+  <!-- contactUsForm_tests -->
+  <test name="contactUsForm" thread-count="1">
+    <classes>
+      <class name="tests.contactUsForm_tests"/>
+    </classes>
+  </test> <!-- contactUsForm -->
+  
+  <!-- testCases_tests -->
+  <test name="testCasesTest" thread-count="1">
+    <classes>
+      <class name="tests.testCases_tests"/>
+    </classes>
+  </test> <!-- testCasesTest -->
+  
+  <!-- ProductDetails_tests -->
+  <test name="ProductDetailsTest" thread-count="2">
+    <classes>
+      <class name="tests.ProductDetails_tests"/>
+    </classes>
+  </test> <!-- ProductDetailsTest -->
+  
+ <!-- Subscription_tests -->
+  <test name="SubscriptionTest" thread-count="2">
+    <classes>
+      <class name="tests.Subscription_tests"/>
+    </classes>
+  </test> <!-- SubscriptionTest -->
+  
+  <!-- inCart_tests -->
+  <test name="inCartTest" thread-count="3">
+    <classes>
+      <class name="tests.inCart_tests"/>
+    </classes>
+  </test> <!-- inCartTest -->
+  
+   <!-- reviewProduct_tests -->
+  <test name="reviewProduct_Test" thread-count="1">
+    <classes>
+      <class name="tests.reviewProduct_tests"/>
+    </classes>
+  </test> <!-- reviewProductTest -->
+
+  <!-- placeOrder_tests -->
+  <test name="placeOrderTest" thread-count="4">
+    <classes>
+      <class name="tests.placeOrder_tests"/>
+    </classes>
+  </test> <!-- placeOrderTest -->
+  
+  <!-- viewCategoryAndBrandProducts_tests -->
+  <test name="viewCategoryAndBrandProductsTest" thread-count="3">
+    <classes>
+      <class name="tests.viewCategoryAndBrandProducts_tests"/>
+    </classes>
+  </test> <!-- viewCategoryAndBrandProductsTest -->
+  
+   <!-- addToCartReccomendedItems_Test -->
+<test name="addToCartReccomendedItemsTest" thread-count="1">
+    <classes>
+      <class name="tests.AddToCartRecommendedItems_test"/>
+    </classes>
+  </test> <!-- addToCartReccomendedItemsTest -->
+  
+  <!-- ScrollUpAndScrollDown_tests -->
+  <test name="ScrollUpAndScrollDownTest" thread-count="2">
+    <classes>
+      <class name="tests.ScrollUpAndScrollDown_tests"/>
+    </classes>
+  </test> <!-- ScrollUpAndScrollDownTest -->
+  
+  </suite> <!-- Suite -->
